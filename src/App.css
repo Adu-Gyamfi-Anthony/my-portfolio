@@ -237,7 +237,7 @@ a:hover {
   background: transparent !important;       /* Double forces no background background */
   border-color: transparent !important;     /* Strips out the solid outline border shape */
   box-shadow: none !important;              /* Completely removes the bright blue glowing effect */
-  color: #58a6ff !important;                /* Keeps the text readable in its clean link color */
+  color: #467ebe !important;                /* Keeps the text readable in its clean link color */
 }
 
 /* 2. Create the fast vibration movement animation */
@@ -266,7 +266,7 @@ button,
 section a, 
 #social a,
 a {
-  color: #c88cd4 !important; /* Clean, high-visibility violet font color */
+  color: y#c88cd4 !important; /* Clean, high-visibility violet font color */
 }
 
 /* Keeps the font violet even when you hover your pointer over it */
