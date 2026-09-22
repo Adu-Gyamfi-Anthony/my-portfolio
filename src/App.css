@@ -277,6 +277,36 @@ section a:hover,
 a:hover {
   color: #750780 !important; 
 }
+/*h1{
+  font-family:  Arial !important;
+  font-weight:  
+  font-style:  italic !important;
+} */
+/* Animated Welcoming Banner */
+.welcome-banner {
+  font-family: 'Times New Roman', Times, serif !important;
+  color:  #750780 !important; /* Matches your custom violet/purple theme */
+  font-size: 24px !important;
+  font-weight: bold !important;
+  font-style:  italic !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  
+  /* Triggers the entrance animation on load */
+  animation: welcomeEntrance 3s ease-out forwards !important;
+}
+
+@keyframes welcomeEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Starts slightly higher up */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);    /* Settles perfectly in place */
+  }
+}
 
 
 

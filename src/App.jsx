@@ -24,9 +24,10 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <img src={profileImg} alt="Anthony Adu-Gyamfi" style={{ width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover' }} />
-          <h1>ADU-GYAMFI ANTHONY</h1>
-          <p>Electrical and Electronic Engineering Student at UMaT.</p>
+          <img src={profileImg} alt="Adu-Gyamfi Anthony" style={{ width: '75px', height: '75px', borderRadius: '100%', objectFit: 'cover' , position: 'absolute', top: '20px', right: '20px' }} />
+          <img src={profileImg} alt="Adu-Gyamfi Anthony" style={{ width: '50px', height: '50px', borderRadius: '100%', objectFit: 'cover' , position: 'absolute', bottom: '20px', right: '20px' }} />
+          <h1 className="welcome-banner">WELCOME TO EPI-SCI ENGINEERING EXPLORE</h1>
+          <p>I'm Adu-Gyamfi Anthony. An Electrical and Electronic Engineering Student at UMaT.</p>
           <p>Also, a Software Developing Student at ERA.</p>
           
         </div>
@@ -46,7 +47,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
+          <h2>Explore more of Engineering on these platforms.</h2>
           <p>Your questions, answered</p>
           <ul>
             <li>
@@ -67,8 +68,8 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Find Me Online</h2>
-          <p>Check out my engineering projects and platforms</p>
+          <h2>Reach Out to Me On The Following Platforms</h2>
+          <p>Check out my engineering projects and platforms. And also, your questions,suggestions and contributions are always welcome.</p>
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
