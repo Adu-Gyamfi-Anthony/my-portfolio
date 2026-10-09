@@ -1,17 +1,15 @@
-import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import profileImg from './profile.png';
 
-
-
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
+
     <div className="wave-container">
       <div className="wave"></div>
       <div className="wave layer2"></div>
@@ -27,19 +25,19 @@ function App() {
           <img src={profileImg} alt="Adu-Gyamfi Anthony" style={{ width: '75px', height: '75px', borderRadius: '100%', objectFit: 'cover' , position: 'absolute', top: '20px', right: '20px' }} />
           <img src={profileImg} alt="Adu-Gyamfi Anthony" style={{ width: '50px', height: '50px', borderRadius: '100%', objectFit: 'cover' , position: 'absolute', bottom: '20px', right: '20px' }} />
           <h1 className="welcome-banner">WELCOME TO EPI-SCI ENGINEERING EXPLORE</h1>
-          <p>I'm Adu-Gyamfi Anthony. An Electrical and Electronic Engineering Student at UMaT.</p>
-          <p>Also, a Software Developing Student at ERA.</p>
+          <p>I'm Adu-Gyamfi Anthony, your website. An Electrical and Electronic Engineering Student at UMaT.</p>
+          <p>Also, a Software Developing Student at ERA-Axis.</p>
           
         </div>
         <button
           type="button"
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          <h3>The site's Recommended Prerequisites:</h3>
+          <p><strong>1.</strong> This site is suitable for individuals interested to explore more in the field of Engineering. This individual can be a learner, teacher, lecturer, researcher or a professor in the field of Engineering.</p>
+          <p><strong>2.</strong> For learners, the recommended prerequisites include a well sounded mindset to know more about Engineering field.</p>
         </button>
       </section>
-
       <div className="ticks"></div>
 
       <section id="next-steps">
@@ -47,8 +45,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Explore more of Engineering on these platforms.</h2>
-          <p>Your questions, answered</p>
+          <h2>Explore More Of Engineering On These Platforms Via The Buttons Below.</h2>
           <ul>
             <li>
              <a href="https://linkedin.com" target="_blank">
@@ -68,7 +65,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Reach Out to Me On The Following Platforms</h2>
+          <h2>Reach Out to Me On The Following Platforms Via The Buttons Below.</h2>
           <p>Check out my engineering projects and platforms. And also, your questions,suggestions and contributions are always welcome.</p>
           <ul>
             <li>

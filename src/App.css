@@ -285,8 +285,8 @@ a:hover {
 /* Animated Welcoming Banner */
 .welcome-banner {
   font-family: 'Times New Roman', Times, serif !important;
-  color:  #750780 !important; /* Matches your custom violet/purple theme */
-  font-size: 24px !important;
+  color:  #00e5ff !important; /* Matches your custom violet/purple theme */
+  font-size: 30px !important;
   font-weight: bold !important;
   font-style:  italic !important;
   letter-spacing: 2px !important;
@@ -294,7 +294,7 @@ a:hover {
   text-align: center !important;
   
   /* Triggers the entrance animation on load */
-  animation: welcomeEntrance 3s ease-out forwards !important;
+  animation: welcomeEntrance 5s ease-out forwards !important;
 }
 
 @keyframes welcomeEntrance {
@@ -306,6 +306,71 @@ a:hover {
     opacity: 1;
     transform: translateY(0);    /* Settles perfectly in place */
   }
+}
+
+/* 1. Makes ALL action buttons highlight and glow equally */
+#next-steps ul li a {
+  border: 2px solid #0078ff !important; /* Forces your custom violet theme border */
+  box-shadow: 0 0 12px rgba(200, 140, 212, 0.4) !important; /* Adds the subtle focal glow */
+  
+  /* 2. Controls the button size so they aren't too long */
+  max-width: 250px !important;  /* Prevents them from stretching all the way */
+  width: 100% !important;       /* Lets them size nicely on smaller viewports */
+  margin: 0 auto !important;    /* Centers them perfectly within their column slots */
+}
+/* Layout Alignment Only - Centers your button text perfectly */
+#next-steps ul li a {
+  display: flex !important;
+  justify-content: center !important; /* Forces horizontal centering */
+  align-items: center !important;     /* Forces vertical centering */
+  gap: 10px !important;               /* Keeps a clean gap between icon and text */
+  box-sizing: border-box !important;  /* Stops text from shifting to the edge */
+}
+/* Fixes the text alignment inside your interactive box while preserving animations */
+button.counter {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important; /* Creates two columns for points 1 and 2 */
+  gap: 16px !important;                      /* Spacing between the columns */
+  max-width: 900px !important;                /* Fits comfortably on the screen */
+  width: 100% !important;
+  height: auto !important;                   /* Lets the block expand to fit your paragraphs */
+  padding: 20px !important;                  /* Balanced inner spacing */
+  text-align: center !important;             /* Centers the text lines */
+}
+/* Modifies the top title header text to match your main heading font style */
+button.counter h3 {
+  grid-column: 1 / span 2 !important;        
+  margin: 0 0 10px 0 !important;             
+  font-size: 25px !important;
+  width: 100% !important;
+  color: #ffffff !important; 
+  
+  /* Font Matching Rules */
+  font-family: Inter, system-ui, -apple-system, sans-serif !important;
+  font-weight: 600 !important; /* Matches the solid weight of your layout headers */
+}
+
+/* Modifies your text paragraphs to match the same clean font style */
+button.counter p {
+  margin: 0 !important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+  
+  /* Font Matching Rules */
+  font-family: Inter, system-ui, -apple-system, sans-serif !important;
+}
+
+/* Quick Adjustment Controls for All Body/Section Text Sizes */
+#center p {
+  font-size: 17px !important;       /* Your main top introduction bio size */
+}
+
+#next-steps h2, #next-steps h3 {
+  font-size: 20px !important;       /* The main column header sizes */
+}
+
+#next-steps p {
+  font-size: 17px !important;       /* The paragraph text right under your column headers */
 }
 
 
