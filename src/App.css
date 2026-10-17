@@ -1,7 +1,7 @@
 /* Midnight Blue / Tech Engineering Theme with High Visibility Image Background */
 #root, body, #center {
   background-image: linear-gradient(rgba(13, 17, 23, 0.4), rgba(13, 17, 23, 0.45)), url('./background.jpg') !important;
-  background-size: cover !important;
+  background-size: 100% 100% !important; /* Forces the wallpaper to scale cleanly without zooming or cropping */
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important; 
@@ -275,7 +275,7 @@ button:hover,
 section a:hover, 
 #social a:hover,
 a:hover {
-  color: #750780 !important; 
+  color: lab(88.71% -9.24 60.01 / 0.904) !important; 
 }
 /*h1{
   font-family:  Arial !important;

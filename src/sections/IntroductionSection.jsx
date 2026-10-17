@@ -15,7 +15,7 @@ export default function IntroductionSection({ heroImg, reactLogo, viteLogo, prof
       </div>
       <button type="button" className="counter">
         <h3>The site's Recommended Prerequisites:</h3>
-        <p><strong>1.</strong> This site is suitable for individuals interested to explore more in the field of Engineering. This individual can be a learner, teacher, lecturer, researcher or a professor in the field of Engineering.</p>
+        <p><strong>1.</strong> This site is suitable for individuals interested to explore more in the field of Engineering. This individual can be a learner, teacher, lecturer, researcher or a professor in the field of Engineering..</p>
         <p><strong>2.</strong> For learners, the recommended prerequisites include a well sounded mindset to know more about Engineering field.</p>
       </button>
     </section>
